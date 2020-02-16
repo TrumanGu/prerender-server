@@ -1,0 +1,22 @@
+{
+  "name": "prerender-server",
+  "version": "1.0.0",
+  "description": "a prerender server for SPA's SEO(based on Nodejs)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "prerender",
+    "puppeteer",
+    "Koa"
+  ],
+  "author": "TrumanGu<trumangu1998@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "node-schedule": "^1.3.2",
+    "puppeteer": "^2.1.1"
+  }
+}
